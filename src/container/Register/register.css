@@ -1,0 +1,82 @@
+.container-register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0;
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+}
+.container-register button{
+    background: #f9de4b;
+    font-weight: 500;
+    color: #0f265c;
+}
+.container-register button.disabled{
+    background: #e9ecf3;
+    color: #0f265c;
+}
+
+.container-register form{
+    width: 100%;
+}
+
+.container-register input{
+    margin: 0.5rem 0;
+    padding: .6rem;
+    border: 2px solid #eaebed;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+
+.container-register input.error{  
+    border: 2px solid #be1100;
+}
+
+.container-register input.disabled{  
+    background-color: #f0f0f0;
+}
+
+.container-register button.invalid{  
+    background-color: #fff199;
+    color: #aeb3b5;
+}
+
+.container-register article{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    width: 100%;
+}
+.container-register_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 1rem;
+}
+
+.container-register_left, .container-register_right{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+}
+
+.container-register_left div, .container-register_right div{
+width: 100%;
+}
+
+.container-register_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+}

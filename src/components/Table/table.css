@@ -1,0 +1,82 @@
+.container-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: white;
+    
+}
+.container-table thead, td {
+    height: 4rem;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.container-table_footer, .container-table_header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.container-table_footer{
+    background: white;
+    padding: 1rem 1rem 3rem 1rem;
+}
+.container-table_footer select{
+    padding: 0.7rem;
+    width: 4rem;
+    background: none;
+}
+
+
+.container-table_overflow{
+    max-height: 40vh;
+    overflow: auto;
+    width: 100%;
+}
+.container-table_header input, button, select{
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+    outline: none;
+    color: #0f265c;
+}
+.container-table_header button{
+    background: #f9de4b;
+    font-weight: 500;
+    color: #0f265c;
+}
+
+
+table{
+    border-collapse: collapse;
+    padding: 8px;
+    border: none;
+}
+
+thead tr th{
+    
+    text-align: left;
+    vertical-align: middle;
+    background: #f9fafc;
+}
+
+th, td{
+    
+    height: 4rem;
+    padding: 0rem 1rem;
+}
+span{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+@media(max-width:810px){
+    .container-table_header{
+        padding: 1rem 1rem;
+    }
+
+}
